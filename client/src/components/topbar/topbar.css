@@ -1,0 +1,118 @@
+.topbar{
+    height: 57px;
+    width: 100%;
+    display: flex;
+    background-color: #d022c4;
+    color: #191919;
+    color: #fff;
+    position: sticky;
+}
+
+.topbaricon{
+    flex: 3;
+    padding: 10px;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.connect{
+    margin-bottom: 20px;
+    
+}
+
+/*.left{
+    flex : 5;
+    padding: 13px;
+}*/
+
+.search{
+  
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  left : 20px;
+
+}
+
+
+
+
+.right{
+    flex : 3;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.firstIcon, .secondIcon ,.thirdIcon{
+    margin-left: 20px;
+    size: 10px;
+    padding-top: 3px;
+}
+
+
+.profileimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    object-fit: fill;
+    
+}
+
+
+.topbarLeft {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .searchbar {
+    width: 40%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 80px;
+    
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+    color: #191919 ;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+
+  .link-connect{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  .c-icon{
+    width: 30px;
+    height: 20px;
+    border-color: #fff;
+    z-index: 999;
+  }
+  .c-icon-i{
+    color: black;
+    background-color: black;
+  }
+

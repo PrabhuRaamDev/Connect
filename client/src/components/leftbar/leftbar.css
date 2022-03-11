@@ -1,0 +1,24 @@
+.left{
+    flex : 3;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.wrap{
+    padding: 20px;
+}
+.leftul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item{
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
